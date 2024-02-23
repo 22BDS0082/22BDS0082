@@ -1,0 +1,56 @@
+.body
+{
+    background-color: #fefffe;/* */ 
+    color: black;/* */ 
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.milestones table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.milestones th,
+.milestones td {
+    border: 1px solid black;/* */ 
+    padding: 8px;
+    text-align: left;
+}
+
+.overview,
+.distr,
+.milestones,
+.dep {
+    width: calc(50% - 15px);
+   
+    margin-bottom: 17px;/**/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: large;
+    border-radius: 12px;
+    background-color: #c5ffe5;/* */ 
+    border: 1px solid #84eabc;
+    padding: 1.6rem;
+    color: black;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.elt {
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    background-color: #84eabc;/* */ 
+    padding: 15px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    
+    
+  }
